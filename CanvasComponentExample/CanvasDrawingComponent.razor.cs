@@ -6,7 +6,7 @@ using Microsoft.JSInterop;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace CanvasComponentExampleCore
+namespace CanvasComponentExample
 {
     public partial class CanvasDrawingComponent
     {

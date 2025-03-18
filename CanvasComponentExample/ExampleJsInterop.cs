@@ -16,7 +16,7 @@ namespace CanvasComponentExample
         public ExampleJsInterop(IJSRuntime jsRuntime)
         {
             moduleTask = new(() => jsRuntime.InvokeAsync<IJSObjectReference>(
-               "import", "./_content/CanvasComponentExampleCore/exampleJsInterop.js").AsTask());
+               "import", "./_content/CanvasComponentExample/exampleJsInterop.js").AsTask());
         }
 
         public async ValueTask<string> Prompt(string message)

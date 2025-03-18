@@ -1,6 +1,6 @@
 ﻿using Microsoft.JSInterop;
 
-namespace CanvasComponentExampleCore
+namespace CanvasComponentExample
 {
     //public class DivCanvasJsInterop
     //{
@@ -22,7 +22,7 @@ namespace CanvasComponentExampleCore
         public DivCanvasJsInterop(IJSRuntime jsRuntime)
         {
             moduleTask = new(() => jsRuntime.InvokeAsync<IJSObjectReference>(
-               "import", "./_content/CanvasComponentExampleCore/divCanvasJsInterop.js").AsTask());
+               "import", "./_content/CanvasComponentExample/divCanvasJsInterop.js").AsTask());
         }
 
         public async ValueTask<string> GetDivCanvasOffset(object[] divCanvas)

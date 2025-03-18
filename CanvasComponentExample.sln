@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CanvasComponentExampleCore", "CanvasComponentExampleCore\CanvasComponentExampleCore.csproj", "{DF53057D-4284-4ACD-A07F-595F5B99191D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanvasComponentExample", "CanvasComponentExample\CanvasComponentExample.csproj", "{89562C7A-A6BA-4C1F-B69E-51B734D50D9A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanvasComponentServerExample", "CanvasComponentServerExample\CanvasComponentServerExample.csproj", "{A499A3F2-89D5-46F8-A3D9-7D1BD2BFD19C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanvasComponentClientExample", "CanvasComponentClientExample\CanvasComponentClientExample.csproj", "{A36D06CE-AF34-49B4-F3E1-914BB7CBF012}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanvasComponentExample", "CanvasComponentExample\CanvasComponentExample.csproj", "{CE1006C6-D7F7-E530-97E6-26DD29BD7AA7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DF53057D-4284-4ACD-A07F-595F5B99191D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DF53057D-4284-4ACD-A07F-595F5B99191D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DF53057D-4284-4ACD-A07F-595F5B99191D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DF53057D-4284-4ACD-A07F-595F5B99191D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{89562C7A-A6BA-4C1F-B69E-51B734D50D9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{89562C7A-A6BA-4C1F-B69E-51B734D50D9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{89562C7A-A6BA-4C1F-B69E-51B734D50D9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{89562C7A-A6BA-4C1F-B69E-51B734D50D9A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A499A3F2-89D5-46F8-A3D9-7D1BD2BFD19C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A499A3F2-89D5-46F8-A3D9-7D1BD2BFD19C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A499A3F2-89D5-46F8-A3D9-7D1BD2BFD19C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A499A3F2-89D5-46F8-A3D9-7D1BD2BFD19C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A36D06CE-AF34-49B4-F3E1-914BB7CBF012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A36D06CE-AF34-49B4-F3E1-914BB7CBF012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A36D06CE-AF34-49B4-F3E1-914BB7CBF012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A36D06CE-AF34-49B4-F3E1-914BB7CBF012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE1006C6-D7F7-E530-97E6-26DD29BD7AA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE1006C6-D7F7-E530-97E6-26DD29BD7AA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE1006C6-D7F7-E530-97E6-26DD29BD7AA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE1006C6-D7F7-E530-97E6-26DD29BD7AA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

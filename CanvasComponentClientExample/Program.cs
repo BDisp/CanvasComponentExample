@@ -1,4 +1,4 @@
-using CanvasComponentExample;
+using CanvasComponentClientExample;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 
